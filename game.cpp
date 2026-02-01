@@ -1,7 +1,6 @@
-#include <bits/stdc++.h>
+ #include <bits/stdc++.h>
 using namespace std;
-
-// ===== BIEN TOAN CUC =====
+// ===== BIEN =====
 bool hasPhoto = false;
 bool talkedOldLady = false;
 bool gaveManager = false;
@@ -49,6 +48,8 @@ void chapter1() {
             mental += 2;
             cout << "Ba lao nhan ra buc anh ngay lap tuc.\n";
             cout << "Ba noi: Dang le tat ca bon ho da bien mat tu lau.\n";
+            cout<<"(Ban da nhan 1 cuon nhat ky trong rat ky la...)";
+			cout<<"(Ban da mo cuon nhat ky do ra.)"; 
             cout << "Ban nhan duoc ten mot nguoi trong anh.\n";
             break;
 
@@ -115,6 +116,8 @@ void chapter2() {
 // ===== HAM CHUONG 3 =====
 void chapter3() {
     cout << "\n=== CHUONG 3: GUONG ===\n";
+    cout<<"Ban thay 1 bong nguoi trong guong ma..."<<endl;
+    cout<<"no ko ton tai?"<<endl; 
     cout << "1. Chup anh guong\n";
     cout << "2. Dap guong\n";
     cout << "3. Gia vo khong thay gi\n";
@@ -136,6 +139,9 @@ void chapter3() {
         cout << "Ban tu choi doi mat su that.\n";
         trust -= 1;
     }
+    else{
+    	cout<<"Lua chon ko hop le!"<<endl; 
+	} 
 }
 
 // ===== KET CUC =====
